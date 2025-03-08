@@ -71,3 +71,44 @@ console.log(orang.nama);
 
 const result = Number("Dicoding");
 console.log(result); // output: NaN
+
+// Mengubah Tipe Data
+const number = 123;
+const boolean = true;
+
+const strNumber = String(number);
+const strBoolean = boolean.toString();
+
+console.log(strNumber); // output: "123"
+console.log(strBoolean); // output: "true"
+
+const cm = "20cm";
+const px = "64px";
+
+const intFromCM = parseInt(cm);
+const intFromPX = parseInt(px);
+
+console.log(intFromCM); // output: 20
+console.log(intFromPX); // output: 64
+
+const angka = 123;
+const string = "Dicoding";
+const empty = null;
+
+const boolFromangka = Boolean(angka);
+const boolFromString = Boolean(string);
+const boolFromNull = Boolean(empty);
+
+console.log(boolFromangka); // output: true
+console.log(boolFromString); // output: true
+console.log(boolFromNull); // output: false
+
+// Konversi Implisit
+// Konversi implisit terjadi ketika JavaScript secara otomatis mengubah tipe data tanpa instruksi eksplisit dari programmer.
+// Ini biasanya terjadi dalam konteks tertentu, seperti operasi aritmetika, perbandingan, dan konteks logika.
+// Meskipun konversi implisit bisa sangat berguna dan menghemat penulisan kode,
+// penting untuk memahami alasan hal ini terjadi untuk menghindari bug dan perilaku yang tidak terduga dalam kode.
+const age = 20;
+const message = "Umurku: " + age;
+
+console.log(message); // output: Umurku: 20
