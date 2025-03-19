@@ -49,3 +49,25 @@ console.log(triple(11));
   20
   33
   */
+
+//Arrow function
+/**
+ * Arrow function adalah cara lain untuk mendefinisikan fungsi.
+ * Arrow function diperkenalkan pada ES6.
+ * Arrow function lebih ringkas dan tidak memerlukan kata kunci function.
+ */
+const greet = () => {
+  console.log("Halo!");
+};
+
+greet();
+
+// Deklarasi Function dengan Arrow Function
+const convert = (temperature) => {
+  const result = (9 / 5) * temperature + 32;
+  return result;
+};
+
+InFahrenheit = convert(90);
+console.log("Hasil konversi:", InFahrenheit);
+// Hasil ==> Hasil konversi: 194
