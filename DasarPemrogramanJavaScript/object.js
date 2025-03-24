@@ -7,4 +7,5 @@ const user = {
 const product = { name: "pen", price: 2.5 };
 
 console.log(user);
-console.log(product["name"]);
+console.log("Menngunakan dot :", product.name);
+console.log("Menggunakan Bracket :", product["name"]);
