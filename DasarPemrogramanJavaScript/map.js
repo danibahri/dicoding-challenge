@@ -30,3 +30,6 @@ console.log(capital.get("Jakarta")); // Indonesia
 // Menghapus data di dalam map
 capital.delete("Jakarta");
 console.log(capital);
+
+// Mengecek apakah key ada di dalam map
+console.log(capital.has("Jakarta")); // false
