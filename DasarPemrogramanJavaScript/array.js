@@ -55,5 +55,9 @@ console.log("Array Reverse :", reversed);
 // sort array
 // Secara default, method sort() akan mengurutkan array berdasarkan abjad dengan ascending order.
 // Jika ingin mengurutkan array dengan descending order, kita bisa menggunakan fungsi compare.
+
+// Ascending
 const sorted = customer.sort();
 console.log("Array Sort :", sorted);
+
+// Descending
