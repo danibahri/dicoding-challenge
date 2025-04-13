@@ -37,3 +37,55 @@ if (gaji > hutang) {
 // ternari operator
 const hasil = gaji > hutang ? "Saya akan bayar hutang" : "Saya akan menabung";
 console.log(hasil);
+
+// switch case
+const hari = "senin";
+switch (hari) {
+  case "senin":
+    console.log("Hari ini adalah hari senin");
+    break;
+  case "selasa":
+    console.log("Hari ini adalah hari selasa");
+    break;
+  case "rabu":
+    console.log("Hari ini adalah hari rabu");
+    break;
+  case "kamis":
+    console.log("Hari ini adalah hari kamis");
+    break;
+  case "jumat":
+    console.log("Hari ini adalah hari jumat");
+    break;
+  case "sabtu":
+    console.log("Hari ini adalah hari sabtu");
+    break;
+  default:
+    console.log("Hari ini adalah hari minggu");
+    break;
+}
+
+const day = new Date().getDay();
+// console.log(day);
+switch (day) {
+  case 0:
+    console.log("Hari ini adalah hari minggu");
+    break;
+  case 1:
+    console.log("Hari ini adalah hari senin");
+    break;
+  case 2:
+    console.log("Hari ini adalah hari selasa");
+    break;
+  case 3:
+    console.log("Hari ini adalah hari rabu");
+    break;
+  case 4:
+    console.log("Hari ini adalah hari kamis");
+    break;
+  case 5:
+    console.log("Hari ini adalah hari jumat");
+    break;
+  case 6:
+    console.log("Hari ini adalah hari sabtu");
+    break;
+}
